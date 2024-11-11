@@ -41,3 +41,6 @@ newBlogPostElement.appendChild(imgElement)
 const pElement = document.createElement('p')
 pElement.textContent = 'We host a delightful Karak Tea tasting event, where guests enjoyed a rich blend of tea and spices in a cozy atmosphere.'
 newBlogPostElement.appendChild(pElement)
+
+const fishTacosElement = document.getElementById('fish-taco')
+ulPastMenuItemsElements.removeChild(fishTacosElement);
